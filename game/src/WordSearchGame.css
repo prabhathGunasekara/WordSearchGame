@@ -1,0 +1,121 @@
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    background-image: url('C:\Users\tharu\OneDrive\Desktop\game 2d\game\src\assets\images\gamebackground.jpg');  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+   
+  h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+   
+  .grid-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px; 
+    margin-top: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    gap: 5px;
+  }
+  
+  .grid-cell {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    font-weight: bold;
+  }
+  
+  .word-list {
+    text-align: left;
+  }
+  
+  .word-list h2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .word-list p {
+    font-size: 1rem;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .word-list p.found-word {
+    text-decoration: line-through;
+    color: green;
+  }
+  
+  
+  .info-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .timer,
+  .score {
+    font-weight: bold;
+  }
+  
+  .timer {
+    color: blue;
+  }
+  
+  .score {
+    color: #333;
+  }
+  
+   
+  .extra-time {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .get-extra-time {
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .extra-time-button {
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .selected {
+    background-color: yellow;  
+  }
+  
+  .found-word {
+    text-decoration: line-through;
+    color: green;
+  }
+  
+  

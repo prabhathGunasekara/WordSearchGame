@@ -1,0 +1,73 @@
+ 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #a0e4f1;
+  }
+  
+  
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('C:/Users/tharu/OneDrive/Desktop/game 2d/game/src/assets/images/gamebackground.jpg');  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+  
+ 
+  .mainpgcontainer {
+     
+    border-radius: 15px;
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  .mainpgcontainer h1 {
+    font-family: inknut antiqua;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+ 
+  .play-button {
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    background-color: #e6b930;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+  }
+  
+  .play-button:hover {
+    background-color: #004bcc;
+  }
+  
+ 
+  .leaderboard-button {
+    padding: 10px 20px;
+    background-color: #e6b930;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    margin-top: 10px;  
+  }
+  
+  .leaderboard-button:hover {
+    background-color: #004bcc;
+  }
+  
