@@ -5,6 +5,7 @@ import Loginpg from "./login";
 import MainPG from "./mainpg";
 import Leaderboard from "./leaderboard";
 import WordSearchGame from "./gamepg";
+import BananaGame from "./bananagame"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/mainpg" element={<MainPG />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/gamepg" element={<WordSearchGame />} />
+        <Route path="/bananagame" element={<BananaGame />} />
       </Routes>
     </Router>
   );

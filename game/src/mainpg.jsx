@@ -6,12 +6,12 @@ function MainPG() {
   const navigate = useNavigate();
 
   const handlePlayClick = () => {
-    // Navigate to the game page
+     
     navigate("/gamepg");
   };
 
   const handleLeaderboardClick = () => {
-    // Navigate to the leaderboard page
+     
     navigate("/leaderboard");
   };
 
